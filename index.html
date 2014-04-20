@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8"/>
+		<link type="text/css" rel="stylesheet" href="main.css">
+		<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="app.js"></script>
+		<title>Shopping List</title>
+	</head>
+
+	<body>
+		<div id="contain">
+			<h1>Shopping List</h1>
+			<div id="form_div">
+				<form id="add_items">
+					<input type="number" id="quantity_to_get" min="1" value="1" required>
+					<input type="text" id="item_to_get" placeholder="Add Item" required>
+					<input type="submit" id="add_to_list" value="+">	
+				</form>
+			
+			</div>
+			<div id="list">
+				<ul id="items">
+					<li class="list_entry"><button class="remove">X</button> Milk x 2 <button class="checkbox">&#x2713;</button></li>
+					<li class="list_entry have"><button class="remove">X</button> Eggs x 3 <button class="checkbox">&#x2713;</button></li>
+				</ul>	
+			</div>
+		</div>
+	</body>
+</html>

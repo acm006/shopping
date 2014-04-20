@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*begin my CSS*/
+
+html, body{
+	height: 100%;
+	background-color: #BABABA;
+	}
+
+#contain{
+    width: 750px;
+    margin: 0 auto 10px;
+    padding: 6px 5px 4px 42px;
+    position: relative;
+    color: #444;
+    line-height: 20px;
+    border: 1px solid #d2d2d2;
+ 
+    background: #fff;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+    background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+    background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+    background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+    background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+    background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+ 
+    -webkit-background-size: 100% 20px;
+    -moz-background-size: 100% 20px;
+    -ms-background-size: 100% 20px;
+    -o-background-size: 100% 20px;
+    background-size: 100% 20px;
+ 
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+ 
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+}
+
+#contain:before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    top: 0;
+    left: 30px;
+    bottom: 0;
+    border: 1px solid;
+    border-color: transparent #FAB0B0;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 5em;
+	text-align: center;
+	font-family: "Indie Flower", serif;
+	margin: 50px 0;
+}
+
+#form_div{
+	margin: 20px 0;
+}
+
+input{
+	font-size: 2.5em;
+	text-align: center;
+	border: 0;
+	border-bottom: 2px solid #000000;
+	font-family: "Shadows Into Light", serif;
+	background: transparent;
+	
+}
+
+#quantity_to_get{
+	width: 50px;
+
+}
+
+#item_to_get{
+	width: 400px;
+
+}
+
+#add_to_list{
+	border: 0;
+	font-weight: bold;
+	color: #001e94;
+	background: transparent;
+	font-family: none;
+}
+
+button{
+	height: 40px;
+	width: 40px;
+	vertical-align: middle;
+	background: transparent;
+}
+
+button:hover{
+	font-weight: bolder;
+}
+
+.checkbox{
+	color: #054703;
+	font-size: 65%;
+	border: 0;
+}
+
+.remove{
+	color: red;
+	font-size: 65%;
+	border: 0;
+}
+
+.have{
+	text-decoration: line-through;
+	opacity: .5;
+}
+
+#list{
+		font-family: "Shadows Into Light", serif;
+		font-size: 3em;
+		margin: 20px 0;
+}
+
+#list li{
+	margin: 20px 0;
+}
+
